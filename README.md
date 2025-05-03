@@ -40,6 +40,7 @@ Dataset ini cocok untuk berbagai tugas pembelajaran mesin, seperti:
 - **Analisis Perilaku Pengguna:** Memahami faktor-faktor yang mempengaruhi keputusan pembelian.
 
 # Penjelasan Notebook: OnlineShoppers Purchasing Intention
+
 # INSTALASI PACKAGE
  python pip install ucimlrepo 
  - Penjelasan: Langkah-langkah lainnya dalam pemrosesan atau visualisasi data.
@@ -57,7 +58,7 @@ Dataset ini cocok untuk berbagai tugas pembelajaran mesin, seperti:
  Pada list dataset tersebut saya ingin menggunakan dataset Online Shoppers
  Purchasing Intention Dataset
 # Import Library
- ```python import pandas as pd import numpy as np import seaborn as sns
+ python import pandas as pd import numpy as np import seaborn as sns
  import matplotlib.pyplot as plt from ucimlrepo import fetch_ucirepo
  from sklearn.modelselection import traintestsplit from
  sklearn.preprocessing import LabelEncoder, StandardScaler from
