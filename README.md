@@ -42,7 +42,7 @@ Dataset ini cocok untuk berbagai tugas pembelajaran mesin, seperti:
 # Penjelasan Notebook: OnlineShoppers Purchasing Intention
 
 # INSTALASI PACKAGE
-- python pip install ucimlrepo 
+python pip install ucimlrepo 
  - Penjelasan: Langkah-langkah lainnya dalam pemrosesan atau visualisasi data.
 # PEMANGGILAN LIBRARY
  python import ucimlrepo 
