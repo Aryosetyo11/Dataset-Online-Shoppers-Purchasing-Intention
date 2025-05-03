@@ -60,6 +60,7 @@ python pip install ucimlrepo
 # Import Library
  python import pandas as pd import numpy as np import seaborn as sns
  import matplotlib.pyplot as plt from ucimlrepo import fetch_ucirepo
+ 
  from sklearn.modelselection import traintestsplit from
  sklearn.preprocessing import LabelEncoder, StandardScaler from
  sklearn.ensemble import RandomForestClassifier from sklearn.metrics
