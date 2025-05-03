@@ -101,7 +101,7 @@ Dataset ini cocok untuk berbagai tugas pembelajaran mesin, seperti:
  model.fit(X_train, y_train) Penjelasan: Langkah-langkah lainnya
  dalam pemrosesan atau visualisasi data.
 # Evaluasi Model
- ```python ypred = model.predict(Xtest)
+ python ypred = model.predict(Xtest)
  print("Confusion Matrix:") print(confusionmatrix(ytest, ypred))
  print("\nClassification Report:") print(classificationreport(ytest, ypred))
  print("\nAccuracy:", accuracyscore(ytest, y_pred)) ```
@@ -118,7 +118,7 @@ Dataset ini cocok untuk berbagai tugas pembelajaran mesin, seperti:
  plt.xticks(rotation=45) plt.show()
  - Penjelasan: Membuat plot batang untuk menunjukkan distribusi data per bulan dan dikategorikan berdasarkan variabel target 'Revenue'.
  # Oversampling dengan SMOTE
- ```python from imblearn.over_sampling import SMOTE
+ python from imblearn.over_sampling import SMOTE
  smote = SMOTE(randomstate=42) Xresampled, yresampled =
  smote.fitresample(X_scaled, y) ```
  - Penjelasan: Mengimpor pustaka yang
@@ -129,14 +129,14 @@ Dataset ini cocok untuk berbagai tugas pembelajaran mesin, seperti:
  y_train)
  - Penjelasan: Mengimpor pustaka yang dibutuhkan untuk analisis,visualisasi, dan pemodelan.
 # visualisasi data berdimensi tinggi menggunakan PCA (Principal Component Analysis)
- ```python from sklearn.decomposition import PCA
+ python from sklearn.decomposition import PCA
  pca = PCA(ncomponents=2) Xpca = pca.fittransform(Xscaled)
  plt.scatter(Xpca[:, 0], Xpca[:, 1], c=y, cmap='coolwarm', alpha=0.6)
  plt.title("PCA Visualization") plt.xlabel("PC1") plt.ylabel("PC2") plt.show() ```
   - Penjelasan: Mengimpor pustaka yang dibutuhkan untuk analisis,
  visualisasi, dan pemodelan.
  # Import library yang dibutuhkan untuk clustering, reduksi dimensi,dan visualisasi
- ```python from sklearn.cluster import KMeans
+ python from sklearn.cluster import KMeans
  kmeans = KMeans(nclusters=3, randomstate=42) clusters =
  kmeans.fitpredict(Xscaled) data['Cluster'] = clusters ```
  - Penjelasan: Mengimpor pustaka yang dibutuhkan untuk analisis, visualisasi, dan pemodelan.
